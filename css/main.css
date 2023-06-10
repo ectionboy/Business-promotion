@@ -114,6 +114,7 @@ body {
     justify-content: space-between;
     align-items: baseline;
     width: 335px;
+    margin: 0 auto; 
 }
 .get-started-button{
     box-shadow: none;
