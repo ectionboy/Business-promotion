@@ -80,6 +80,12 @@ body {
 .logo-link h1{
     margin-left: 8px;
 }
+.logo-link h2{
+    margin-left: 8px;
+}
+.mob-menu-icon {
+    fill: #02897A;
+}
 
 /* get-started */
 .get-started-container{
@@ -131,13 +137,128 @@ body {
 .get-started-link span{
     display: inline;
     font-weight: 600;
-font-size: 16px;
-line-height: 1.5;
-
-text-decoration-line: underline;
-
-color: #02897A;
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration-line: underline;
+    color: #02897A;
 }
-.mob-menu-icon {
-    fill: #02897A;
+
+/* Sign up */
+.sign-up-contaner {
+    max-width: 331px;
+    margin: 0 auto; 
+    padding-top: 16px;
+    padding-bottom: 38px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sign-up-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.5;
+    text-align: center;
+}
+.sign-up-list {
+    text-align: center;
+    max-width: 240px;
+
+    margin-top: 50px;
+    padding-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.sign-up-list-title {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 1.5;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+.sign-up-list-p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    width: 226px;
+}
+.sign-up-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #02897A;
+    border-radius: 4px;
+    width: 175px;
+    height: 53px;
+}
+
+/* footer */
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.social-list{
+    display: flex;
+    gap: 16px;
+    width: 152px;
+    margin-top: 25px;
+}
+.social-icon:hover{
+    stroke: #247a70;
+}
+.footer-resource{
+    margin: 32px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-resource-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.footer-resource-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    margin-top: 8px;
+}
+.footer-resource-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 2.19;
+    text-align: center;
+    color: inherit;
+}
+/* footer legal stuff */
+.footer-legal-stuff{
+    margin-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-legal-stuff-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+}
+.footer-legal-stuff-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    margin-top: 8px;
+}
+.footer-legal-stuff-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 2.19;
+    text-align: center;
+    color: inherit;
 }

@@ -1,0 +1,16 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="icon-sign-up-4" viewBox="0 0 31 32">
+<path fill="#f03e3d" style="fill: var(--color1, #f03e3d)" d="M11.922 0.607h7.529c6.584 0 11.922 5.337 11.922 11.922v7.529c0 6.584-5.337 11.922-11.922 11.922h-7.529c-6.584 0-11.922-5.337-11.922-11.922v-7.529c0-6.584 5.337-11.922 11.922-11.922z"></path>
+</symbol>
+<symbol id="icon-sign-up-3" viewBox="0 0 31 32">
+<path fill="#740a76" style="fill: var(--color2, #740a76)" d="M11.922 0.607h7.529c6.584 0 11.922 5.337 11.922 11.922v7.529c0 6.584-5.337 11.922-11.922 11.922h-7.529c-6.584 0-11.922-5.337-11.922-11.922v-7.529c0-6.584 5.337-11.922 11.922-11.922z"></path>
+</symbol>
+<symbol id="icon-sign-up-2" viewBox="0 0 31 32">
+<path fill="#4d8dff" style="fill: var(--color3, #4d8dff)" d="M11.922 0.607h7.529c6.584 0 11.922 5.337 11.922 11.922v7.529c0 6.584-5.337 11.922-11.922 11.922h-7.529c-6.584 0-11.922-5.337-11.922-11.922v-7.529c0-6.584 5.337-11.922 11.922-11.922z"></path>
+</symbol>
+<symbol id="icon-sign-up-1" viewBox="0 0 32 32">
+<path fill="#02897a" style="fill: var(--color4, #02897a)" d="M11.922 0.607h7.529c6.584 0 11.922 5.337 11.922 11.922v7.529c0 6.584-5.337 11.922-11.922 11.922h-7.529c-6.584 0-11.922-5.337-11.922-11.922v-7.529c0-6.584 5.337-11.922 11.922-11.922z"></path>
+</symbol>
+</defs>
+</svg>
