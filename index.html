@@ -18,17 +18,36 @@
                 </svg>
                 <h1>Product</h1>
             </a>
-            <button class="button" type="button">
+            <button class="button mob-menu-btn" type="button">
                 <svg class="mob-menu-icon" width="28px" height="31px">
                     <use href="./img/icons.svg#icon-mob-menu"></use>
                 </svg>            
             </button>
+            <div class="desktop-menu">
+                <ul class="list desktop-menu-list">
+                    <ul><a href="" class="link desktop-menu-link selected">Product</a></ul>
+                    <ul><a href="" class="link desktop-menu-link">Pricing</a></ul>
+                    <ul><a href="" class="link desktop-menu-link">Customers</a></ul>
+                    <ul><a href="" class="link desktop-menu-link">Resources</a></ul>
+                </ul>
+                <div class="header-authentication">
+                    <button type="button" class="authentication-sign-in">Sign In</button>
+                    <button type="button" class="authentication-sign-up">Sign Up</button>
+                </div>
+                <div class="theme">
+                    <button type="button" class="theme-btn">
+                        <svg class="mob-menu-icon" width="32px" height="32px">
+                            <use href="./img/icons.svg#icon-theme-btn"></use>
+                        </svg> 
+                    </button>
+                </div>
+            </div>
     </header>
     <main>
         <!-- Get started -->
         <section>
             <div class="get-started-container">
-                <img class="get-started-img" src="./img/amico.svg" alt="" width="338px" height="311px">
+                <img class="get-started-img" src="./img/amico.svg" alt="">
                 <div class="get-started-box">
                     <h2 class="get-started-title">Work at the speed
                         of thought</h2>
@@ -51,28 +70,28 @@
                 <h2 class="sign-up-title">Product  was Built Specifically for You</h2>
                 <ul class="list sign-up-list">
                     <li class="sign-up-list-item">
-                        <svg class="mob-menu-icon" width="50px" height="50px">
+                        <svg class="sign-up-icon">
                             <use href="./img/sign-up.svg#icon-sign-up-1"></use>
                         </svg>
                         <h3 class="sign-up-list-title">First click tests</h3>
                         <p class="sign-up-list-p">While most people enjoy casino gambling.</p>
                     </li>
                     <li class="sign-up-list-item">
-                        <svg class="mob-menu-icon" width="50px" height="50px">
+                        <svg class="sign-up-icon">
                             <use href="./img/sign-up.svg#icon-sign-up-2"></use>
                         </svg>
                         <h3 class="sign-up-list-title">Design surveys</h3>
                         <p class="sign-up-list-p">Sports betting, lottery and bingo playing for the fun</p>
                     </li>
                     <li class="sign-up-list-item">
-                        <svg class="mob-menu-icon" width="50px" height="50px">
+                        <svg class="sign-up-icon">
                             <use href="./img/sign-up.svg#icon-sign-up-3"></use>
                         </svg>
                         <h3 class="sign-up-list-title">Preference tests</h3>
                         <p class="sign-up-list-p">The Myspace page defines the individual.</p>
                     </li>
                     <li class="sign-up-list-item">
-                        <svg class="mob-menu-icon" width="50px" height="50px">
+                        <svg class="sign-up-icon">
                             <use href="./img/sign-up.svg#icon-sign-up-4"></use>
                         </svg>
                         <h3 class="sign-up-list-title">Five second tests</h3>
@@ -85,35 +104,37 @@
     </main>
     <footer>
         <div class="footer-container">
-            <a class="link logo-link" href="">
-                <svg class="logo-icon" width="40px" height="36px">
-                    <use href="./img/icons.svg#icon-logo"></use>
-                </svg>
-                <h2>Product</h2>
-            </a>
-            <li class="list social-list">
-                <ul>
-                    <a href="">
-                    <svg  class="social-icon" width="40px" height="40px">
-                        <use href="./img/social.svg#icon-instagram"></use>
+            <div>
+                <a class="link logo-link" href="">
+                    <svg class="logo-icon" width="40px" height="36px">
+                        <use href="./img/icons.svg#icon-logo"></use>
                     </svg>
-                    </a>
-                </ul>
-                <ul>
-                    <a href="">
-                        <svg class="social-icon" width="40px" height="40px">
-                            <use href="./img/social.svg#icon-facebook"></use>
+                    <h2>Product</h2>
+                </a>
+                <li class="list social-list">
+                    <ul>
+                        <a href="">
+                        <svg  class="social-icon" width="40px" height="40px">
+                            <use href="./img/social.svg#icon-instagram"></use>
                         </svg>
                         </a>
-                </ul>
-                <ul>
-                    <a href="">
-                        <svg class="social-icon" width="40px" height="40px">
-                            <use href="./img/social.svg#icon-tweater"></use>
-                        </svg>
-                        </a>
-                </ul>
-            </li>
+                    </ul>
+                    <ul>
+                        <a href="">
+                            <svg class="social-icon" width="40px" height="40px">
+                                <use href="./img/social.svg#icon-facebook"></use>
+                            </svg>
+                            </a>
+                    </ul>
+                    <ul>
+                        <a href="">
+                            <svg class="social-icon" width="40px" height="40px">
+                                <use href="./img/social.svg#icon-tweater"></use>
+                            </svg>
+                            </a>
+                    </ul>
+                </li>
+            </div>
         
         <!-- Resource -->
             <div class="footer-resource">
@@ -135,6 +156,11 @@
                     <li><a class="link footer-legal-stuff-link" href="">Terms of Service</a></li>
                 </ul>
             </div>
+            <form class="footer-form">
+                <p class="footer-form-p">knowing you're always on the best energy deal.</p>
+                <input type="text" class="footer-form-input" id="footer-tel" type="text" placeholder="Enter your phone Number">
+                <button type="submit" class="footer-form-btn">Sign up Now</button>
+            </form>
         </div>
     </footer>
 </body>

@@ -87,6 +87,82 @@ body {
     fill: #02897A;
 }
 
+.desktop-menu {
+    display: none;
+
+}
+.desktop-menu-list {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.desktop-menu-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #22343D;
+}
+.desktop-menu-link.selected{
+    font-weight: 600;
+}
+.header-authentication {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+.authentication-sign-in {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    color: #173A56;
+    background-color: inherit;
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+    width: 102px;
+    height: 42px;
+}
+.authentication-sign-up {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #02897A;
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+    width: 110px;
+    height: 42px;
+}
+.theme {
+    display: flex;
+    align-items: center;
+}
+.theme-btn {
+    background-color: inherit;
+    width: 32px;
+    height: 32px;
+}
+
+@media screen and (min-width: 1110px) {
+    .header-container{
+        max-width: 1110px;
+        padding: 19px 0;
+        box-shadow: none;
+    }
+    .mob-menu-btn{
+        display: none;
+    }
+    .desktop-menu {
+        display: flex;
+        gap: 24px;
+    }
+}
+
 /* get-started */
 .get-started-container{
     max-width: 369px;
@@ -95,6 +171,8 @@ body {
     padding-bottom: 100px;
 }
 .get-started-img{
+    width: 338px;
+    height: 311px;
     margin: 0 auto; 
 }
 .get-started-box{
@@ -104,13 +182,13 @@ body {
 .get-started-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 60px;
+    line-height: 1.5;
     text-align: center;
 }
 .get-started-p {
     font-weight: 400;
     font-size: 18px;
-    line-height: 28px;
+    line-height: 1.56;
     text-align: center;
     width: 326px;
     margin: 16px auto;
@@ -143,6 +221,42 @@ body {
     color: #02897A;
 }
 
+@media screen and (min-width: 1110px) {
+    .get-started-container{
+        display: flex;
+        flex-direction: row-reverse;
+        max-width: 1110px;
+        margin: 0 auto; 
+        padding-top: 25px;
+        padding-bottom: 100px;
+    }
+    .get-started-img{
+        width: 610px;
+        height: 555px;
+        margin: 0 auto; 
+    }
+    .get-started-title {
+        font-size: 40px;
+        text-align: start;
+        margin-top: 112px;
+    }
+    .get-started-p {
+        text-align: start;
+        margin: 0;
+        margin-top: 18px;
+    }
+    .get-started-wrap {
+        width: 372px;
+        margin: 0;
+        margin-top: 45px;
+    }
+    .get-started-button{
+        width: 178px;
+    }
+    
+}
+
+
 /* Sign up */
 .sign-up-contaner {
     max-width: 331px;
@@ -160,14 +274,13 @@ body {
     text-align: center;
 }
 .sign-up-list {
-    text-align: center;
-    max-width: 240px;
-
-    margin-top: 50px;
-    padding-bottom: 32px;
     display: flex;
     flex-direction: column;
     gap: 32px;
+    text-align: center;
+    max-width: 240px;
+    margin-top: 50px;
+    margin-bottom: 32px;
 }
 .sign-up-list-title {
     font-weight: 600;
@@ -176,11 +289,14 @@ body {
     margin-top: 24px;
     margin-bottom: 8px;
 }
+.sign-up-icon{
+    width: 50px;
+    height: 50px;
+}
 .sign-up-list-p {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.62;
-    text-align: center;
     width: 226px;
 }
 .sign-up-button {
@@ -193,6 +309,25 @@ body {
     border-radius: 4px;
     width: 175px;
     height: 53px;
+}
+
+@media screen and (min-width: 1110px) {
+    .sign-up-contaner {
+        max-width: 1110px;
+        padding-top: 0;
+        padding-bottom: 43px;
+    }
+    .sign-up-list {
+        flex-direction: row;
+        gap: 30px;
+        text-align: start;
+        max-width: none;
+        margin: 50px 0;
+    }
+    .sign-up-icon{
+        width: 54px;
+        height: 54px;
+    }
 }
 
 /* footer */
@@ -261,4 +396,100 @@ body {
     line-height: 2.19;
     text-align: center;
     color: inherit;
+}
+
+/* form */
+.footer-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 44px;
+}
+.footer-form-p{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+    width: 280px;
+}
+.footer-form-input {
+    background-color: #FFFFFF;
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 325px;
+    height: 48px;
+    padding: 10px 0 10px 15px;
+    margin-top: 34px;
+    margin-bottom: 21px;
+}
+
+.footer-form-input::placeholder{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #BCD0E5;
+}
+.footer-form-input:focus{
+    border-color: #4891df ;
+}
+.footer-form-btn{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #02897A;
+    border-radius: 4px;
+    width: 131px;
+    height: 39px;
+}
+
+@media screen and (min-width: 1110px) {
+    .footer-container{
+        flex-direction: row;
+        align-items: normal;
+        justify-content: space-between;
+        max-width: 1110px;
+        margin: 0 auto;
+        padding-bottom: 40px;
+    }
+    .footer-resource{
+        margin: 0;
+        align-items: normal;
+    }
+    .footer-resource-list{
+        align-items: normal;
+        gap: 0;
+    }
+    .footer-legal-stuff{
+        margin: 0;
+        align-items: normal;
+    }
+    .footer-legal-stuff-list{
+        align-items: normal;
+        gap: 0;
+    }
+    .footer-form {
+        margin: 0;
+        align-items: normal;
+    }
+    .footer-form-p{
+        text-align: start;
+    }
+    .footer-form-input {
+        /* background-color: #FFFFFF;
+        border: 1px solid #BCD0E5;
+        border-radius: 4px;
+        box-sizing: border-box;
+        width: 325px;
+        height: 48px;
+        padding: 10px 0 10px 15px; */
+        margin-top: 30px;
+        margin-bottom: 25px;
+    }
 }
